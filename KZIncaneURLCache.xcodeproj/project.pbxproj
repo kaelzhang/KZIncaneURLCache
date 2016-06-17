@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F29021E1CF944D600890FFF /* KZIncaneURLCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F29021D1CF944D600890FFF /* KZIncaneURLCacheTests.m */; };
+		9F7A37451CFD74BE00A490AD /* KZCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A37401CFD74BE00A490AD /* KZCache.m */; };
+		9F7A37461CFD74BE00A490AD /* KZIncaneURLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A37421CFD74BE00A490AD /* KZIncaneURLCache.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F29021A1CF944D600890FFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F2901F81CF944D600890FFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F2901FF1CF944D600890FFF;
+			remoteInfo = KZIncaneURLCache;
+		};
+		9F2902251CF944D600890FFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F2901F81CF944D600890FFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F2901FF1CF944D600890FFF;
+			remoteInfo = KZIncaneURLCache;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F2902001CF944D600890FFF /* KZIncaneURLCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZIncaneURLCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2902191CF944D600890FFF /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F29021D1CF944D600890FFF /* KZIncaneURLCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZIncaneURLCacheTests.m; sourceTree = "<group>"; };
+		9F29021F1CF944D600890FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F2902241CF944D600890FFF /* KZIncaneURLCacheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KZIncaneURLCacheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F7A373F1CFD74BE00A490AD /* KZCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZCache.h; sourceTree = "<group>"; };
+		9F7A37401CFD74BE00A490AD /* KZCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZCache.m; sourceTree = "<group>"; };
+		9F7A37411CFD74BE00A490AD /* KZIncaneURLCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZIncaneURLCache.h; sourceTree = "<group>"; };
+		9F7A37421CFD74BE00A490AD /* KZIncaneURLCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZIncaneURLCache.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F2901FD1CF944D600890FFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2902161CF944D600890FFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2902211CF944D600890FFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F2901F71CF944D600890FFF = {
+			isa = PBXGroup;
+			children = (
+				9F2902021CF944D600890FFF /* KZIncaneURLCache */,
+				9F29021C1CF944D600890FFF /* Tests */,
+				9F2902011CF944D600890FFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F2902011CF944D600890FFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F2902001CF944D600890FFF /* KZIncaneURLCache.app */,
+				9F2902191CF944D600890FFF /* Tests.xctest */,
+				9F2902241CF944D600890FFF /* KZIncaneURLCacheUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F2902021CF944D600890FFF /* KZIncaneURLCache */ = {
+			isa = PBXGroup;
+			children = (
+				9F7A373F1CFD74BE00A490AD /* KZCache.h */,
+				9F7A37401CFD74BE00A490AD /* KZCache.m */,
+				9F7A37411CFD74BE00A490AD /* KZIncaneURLCache.h */,
+				9F7A37421CFD74BE00A490AD /* KZIncaneURLCache.m */,
+			);
+			path = KZIncaneURLCache;
+			sourceTree = "<group>";
+		};
+		9F29021C1CF944D600890FFF /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9F29021D1CF944D600890FFF /* KZIncaneURLCacheTests.m */,
+				9F29021F1CF944D600890FFF /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F2901FF1CF944D600890FFF /* KZIncaneURLCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F29022D1CF944D600890FFF /* Build configuration list for PBXNativeTarget "KZIncaneURLCache" */;
+			buildPhases = (
+				9F2901FC1CF944D600890FFF /* Sources */,
+				9F2901FD1CF944D600890FFF /* Frameworks */,
+				9F2901FE1CF944D600890FFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KZIncaneURLCache;
+			productName = KZIncaneURLCache;
+			productReference = 9F2902001CF944D600890FFF /* KZIncaneURLCache.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F2902181CF944D600890FFF /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F2902301CF944D600890FFF /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				9F2902151CF944D600890FFF /* Sources */,
+				9F2902161CF944D600890FFF /* Frameworks */,
+				9F2902171CF944D600890FFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F29021B1CF944D600890FFF /* PBXTargetDependency */,
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 9F2902191CF944D600890FFF /* Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F2902231CF944D600890FFF /* KZIncaneURLCacheUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F2902331CF944D600890FFF /* Build configuration list for PBXNativeTarget "KZIncaneURLCacheUITests" */;
+			buildPhases = (
+				9F2902201CF944D600890FFF /* Sources */,
+				9F2902211CF944D600890FFF /* Frameworks */,
+				9F2902221CF944D600890FFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F2902261CF944D600890FFF /* PBXTargetDependency */,
+			);
+			name = KZIncaneURLCacheUITests;
+			productName = KZIncaneURLCacheUITests;
+			productReference = 9F2902241CF944D600890FFF /* KZIncaneURLCacheUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F2901F81CF944D600890FFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kael Zhang";
+				TargetAttributes = {
+					9F2901FF1CF944D600890FFF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9F2902181CF944D600890FFF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9F2901FF1CF944D600890FFF;
+					};
+					9F2902231CF944D600890FFF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9F2901FF1CF944D600890FFF;
+					};
+				};
+			};
+			buildConfigurationList = 9F2901FB1CF944D600890FFF /* Build configuration list for PBXProject "KZIncaneURLCache" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F2901F71CF944D600890FFF;
+			productRefGroup = 9F2902011CF944D600890FFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F2901FF1CF944D600890FFF /* KZIncaneURLCache */,
+				9F2902181CF944D600890FFF /* Tests */,
+				9F2902231CF944D600890FFF /* KZIncaneURLCacheUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F2901FE1CF944D600890FFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2902171CF944D600890FFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2902221CF944D600890FFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F2901FC1CF944D600890FFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F7A37451CFD74BE00A490AD /* KZCache.m in Sources */,
+				9F7A37461CFD74BE00A490AD /* KZIncaneURLCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2902151CF944D600890FFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F29021E1CF944D600890FFF /* KZIncaneURLCacheTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2902201CF944D600890FFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F29021B1CF944D600890FFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F2901FF1CF944D600890FFF /* KZIncaneURLCache */;
+			targetProxy = 9F29021A1CF944D600890FFF /* PBXContainerItemProxy */;
+		};
+		9F2902261CF944D600890FFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F2901FF1CF944D600890FFF /* KZIncaneURLCache */;
+			targetProxy = 9F2902251CF944D600890FFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9F29022B1CF944D600890FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F29022C1CF944D600890FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F29022E1CF944D600890FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KZIncaneURLCache/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.kael.KZIncaneURLCache;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F29022F1CF944D600890FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KZIncaneURLCache/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.kael.KZIncaneURLCache;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9F2902311CF944D600890FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.kael.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KZIncaneURLCache.app/KZIncaneURLCache";
+			};
+			name = Debug;
+		};
+		9F2902321CF944D600890FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.kael.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KZIncaneURLCache.app/KZIncaneURLCache";
+			};
+			name = Release;
+		};
+		9F2902341CF944D600890FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KZIncaneURLCacheUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.kael.KZIncaneURLCacheUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KZIncaneURLCache;
+			};
+			name = Debug;
+		};
+		9F2902351CF944D600890FFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KZIncaneURLCacheUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.kael.KZIncaneURLCacheUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KZIncaneURLCache;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F2901FB1CF944D600890FFF /* Build configuration list for PBXProject "KZIncaneURLCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F29022B1CF944D600890FFF /* Debug */,
+				9F29022C1CF944D600890FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F29022D1CF944D600890FFF /* Build configuration list for PBXNativeTarget "KZIncaneURLCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F29022E1CF944D600890FFF /* Debug */,
+				9F29022F1CF944D600890FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F2902301CF944D600890FFF /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2902311CF944D600890FFF /* Debug */,
+				9F2902321CF944D600890FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F2902331CF944D600890FFF /* Build configuration list for PBXNativeTarget "KZIncaneURLCacheUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2902341CF944D600890FFF /* Debug */,
+				9F2902351CF944D600890FFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F2901F81CF944D600890FFF /* Project object */;
+}
