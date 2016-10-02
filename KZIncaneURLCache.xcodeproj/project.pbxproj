@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F29021E1CF944D600890FFF /* KZIncaneURLCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F29021D1CF944D600890FFF /* KZIncaneURLCacheTests.m */; };
 		9F7A37451CFD74BE00A490AD /* KZCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A37401CFD74BE00A490AD /* KZCache.m */; };
 		9F7A37461CFD74BE00A490AD /* KZIncaneURLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7A37421CFD74BE00A490AD /* KZIncaneURLCache.m */; };
 /* End PBXBuildFile section */
@@ -32,7 +31,6 @@
 /* Begin PBXFileReference section */
 		9F2902001CF944D600890FFF /* KZIncaneURLCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZIncaneURLCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F2902191CF944D600890FFF /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F29021D1CF944D600890FFF /* KZIncaneURLCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KZIncaneURLCacheTests.m; sourceTree = "<group>"; };
 		9F29021F1CF944D600890FFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F2902241CF944D600890FFF /* KZIncaneURLCacheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KZIncaneURLCacheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7A373F1CFD74BE00A490AD /* KZCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZCache.h; sourceTree = "<group>"; };
@@ -99,10 +97,17 @@
 		9F29021C1CF944D600890FFF /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				9F29021D1CF944D600890FFF /* KZIncaneURLCacheTests.m */,
+				9FDF5DAD1D13A1B400D56415 /* Specs */,
 				9F29021F1CF944D600890FFF /* Info.plist */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		9FDF5DAD1D13A1B400D56415 /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Specs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F29021E1CF944D600890FFF /* KZIncaneURLCacheTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
